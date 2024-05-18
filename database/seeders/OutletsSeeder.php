@@ -16,42 +16,42 @@ class OutletsSeeder extends Seeder
     {
         Outlet::create([
             'code' => Str::random(),
-            'name' => 'Dimas Alvan',
+            'name' => 'Rafael Delano',
             'status' => 'selesai',
-            'address' => 'Bojong Gede',
-            'phone' => '08778668888',
+            'address' => 'Bogor',
+            'phone' => '08778664440',
         ]);
 
         Outlet::create([
             'code' => Str::random(),
-            'name' => 'Bredsten',
+            'name' => 'Abang',
             'status' => 'Berlangsung',
             'address' => 'Sentul',
-            'phone' => '089877899087',
+            'phone' => '08987740222',
         ]);
 
         Outlet::create([
             'code' => Str::random(),
-            'name' => 'Ageng Cahyo',
+            'name' => 'Zaky Ahmad',
             'status' => 'selesai',
             'address' => 'Cibinong',
-            'phone' => '098789797654',
+            'phone' => '098789033320',
         ]);
 
         Outlet::create([
             'code' => Str::random(),
-            'name' => 'Ahmad Zaky',
+            'name' => 'Akhtar',
             'status' => 'berlangsung',
             'address' => 'Depok',
-            'phone' => '089876574534',
+            'phone' => '0898763330',
         ]);
 
         Outlet::create([
             'code' => Str::random(),
-            'name' => 'Weka Budi',
+            'name' => 'Fahmi Faisal',
             'status' => 'selesai',
             'address' => 'Sukahati',
-            'phone' => '078797687676',
+            'phone' => '078797423400',
         ]);
     }
 }
